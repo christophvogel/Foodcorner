@@ -1,14 +1,17 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
-$body-color: white;
-$primary: hotpink;
-$font-family-base: Arial;
+$body-bg: rgb(155, 153, 153);
+$body-color: rgb(24, 22, 22);
+$primary: rgb(87, 202, 103);
+$font-family-base: Tahoma;
 
 // Include all Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
 body {
-  padding: 20px;
+  padding: 30px;
+}
+img {
+  padding: 10px;
 }
